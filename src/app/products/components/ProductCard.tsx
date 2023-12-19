@@ -21,7 +21,7 @@ const ProductCard = ({ description, image, price, title, currency }: Props) => {
         className="object-cover"
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
+        <div className="font-bold text-xl mb-2 text-black">{title}</div>
         <p className="text-gray-700 text-base">{description}</p>
       </div>
       <div className="px-6 pt-4 pb-2 flex justify-between items-center">
